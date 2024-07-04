@@ -32,7 +32,7 @@ def simulate_car_board():
         try:
             # Simulate data
             speed = random.uniform(0, 120)
-            battery_level = random.uniform(20, 100)
+            battery_level = random.uniform(30, 100)
             engine_temp = random.uniform(60, 120)
  
             # Log the simulated data
