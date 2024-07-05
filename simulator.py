@@ -31,7 +31,7 @@ def simulate_car_board():
     while True:
         try:
             # Simulate data
-            speed = random.uniform(10, 120)
+            speed = random.uniform(20, 120)
             battery_level = random.uniform(20, 100)
             engine_temp = random.uniform(50, 120)
  
